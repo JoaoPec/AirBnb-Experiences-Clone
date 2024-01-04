@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.container img {
+    border-radius: 8px;
+    align-self: center;
+}
+
+.text {
+    margin-top: 50px;
+    padding: 10px;
+    align-self: flex-start;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
