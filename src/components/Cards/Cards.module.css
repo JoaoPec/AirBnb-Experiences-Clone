@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+}
+
+.card img {
+    border-radius: 8px;
+    align-self: center;
+    width: 355px;
+    height: 350px;
+}
+
+.card p {
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.opacity {
+    opacity: 0.8;
+    /* Define a transparência do texto (0 totalmente transparente, 1 totalmente opaco) */
+    color: #999;
+    /* Opcional: ajusta a cor do texto para parecer mais apagado */
+}
+
+.bold {
+    font-weight: bold;
+}
